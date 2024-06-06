@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        const EndTermPractical= [ "me", "my","mine", "you","your","yours"]
+        EndTermPractical.push("happy")
+        console.log(EndTermPractical)
+        EndTermPractical.pop()
+        console.log(EndTermPractical)
+        EndTermPractical.unshift("happy")
+        console.log(EndTermPractical)
+        EndTermPractical.shift()
+        console.log(EndTermPractical)
+        const mine = 2;
+        EndTermPractical.splice(mine,1)
+        console.log(EndTermPractical)
+        const newTask = 'Finish project';
+        const my = 1;
+        EndTermPractical.splice(my, 0, newTask); 
+        console.log(EndTermPractical)
+        
+    </script>
+</body>
+</html>
